@@ -1,0 +1,98 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "cli:args": {
+      "name": "cli:args",
+      "command": "yarn cli:args",
+      "runAtStart": false
+    },
+    "cli:env": {
+      "name": "cli:env",
+      "command": "yarn cli:env",
+      "runAtStart": false
+    },
+    "cp": {
+      "name": "cp",
+      "command": "yarn cp",
+      "runAtStart": false
+    },
+    "fs:copy": {
+      "name": "fs:copy",
+      "command": "yarn fs:copy",
+      "runAtStart": false
+    },
+    "fs:create": {
+      "name": "fs:create",
+      "command": "yarn fs:create",
+      "runAtStart": true
+    },
+    "fs:delete": {
+      "name": "fs:delete",
+      "command": "yarn fs:delete",
+      "runAtStart": false
+    },
+    "fs:list": {
+      "name": "fs:list",
+      "command": "yarn fs:list",
+      "runAtStart": false
+    },
+    "fs:read": {
+      "name": "fs:read",
+      "command": "yarn fs:read",
+      "runAtStart": false
+    },
+    "fs:rename": {
+      "name": "fs:rename",
+      "command": "yarn fs:rename",
+      "runAtStart": false
+    },
+    "hash": {
+      "name": "hash",
+      "command": "yarn hash",
+      "runAtStart": false
+    },
+    "modules": {
+      "name": "modules",
+      "command": "yarn modules",
+      "runAtStart": false
+    },
+    "streams:read": {
+      "name": "streams:read",
+      "command": "yarn streams:read",
+      "runAtStart": false
+    },
+    "streams:transform": {
+      "name": "streams:transform",
+      "command": "yarn streams:transform",
+      "runAtStart": false
+    },
+    "streams:write": {
+      "name": "streams:write",
+      "command": "yarn streams:write",
+      "runAtStart": false
+    },
+    "wt": {
+      "name": "wt",
+      "command": "yarn wt",
+      "runAtStart": false
+    },
+    "zip:compress": {
+      "name": "zip:compress",
+      "command": "yarn zip:compress",
+      "runAtStart": false
+    },
+    "zip:decompress": {
+      "name": "zip:decompress",
+      "command": "yarn zip:decompress",
+      "runAtStart": false
+    }
+  }
+}
